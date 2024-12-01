@@ -2,7 +2,7 @@ import React from "react";
 
 const MarioCard = ({ id, name, powerUp, hability, imageUrl, onEdit, onDelete }) => {
     return (
-        <div className="w-64 hover:w-80 hover:scale-105 mx-auto bg-red-300 hover:bg-rose-500  text-white rounded-lg shadow-lg overflow-hidden hover:text-zinc-100 relative group transition-all duration-150">
+        <div className="w-64 h-fit hover:w-80 hover:scale-105 mx-auto bg-red-300 hover:bg-rose-500  text-white rounded-lg shadow-lg hover:text-zinc-100 relative group transition-all duration-150">
             {/* Botones de editar y eliminar */}
             <div className="absolute top-2 right-2 space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center">
                 {/* Botón de Editar */}
